@@ -44,7 +44,7 @@ if __name__ == '__main__':
         model = pickle.load(f)
     
     # get features
-    features:list[str] = list(model.feature_names_in_)
+    features = list(model.feature_names_in_)
 
     # make prediction
     if all([feature in data.columns for feature in features]):

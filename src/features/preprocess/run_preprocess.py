@@ -46,7 +46,7 @@ import json
 from references.libs.logging import logging
 from diabetia_expert_model import DataEngineering
 
-_preprocess:dict[str:object] = {
+_preprocess = {
     "diabetia_expert_model":DataEngineering
 }
 
